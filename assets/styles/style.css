@@ -1,0 +1,26 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(principal.css);
+@import url(produtos.css);
+@import url(contato.css);
+@import url(footer.css);
+
+
+:root {
+    --fonte-principal: 'Montserrat', sans-serif;
+    --fonte-titulo: 'Lilita One', cursive;
+    --cor-titulo-principal: yellow;
+}
+
+body {
+	font-family: var(--fonte-principal); 
+    box-sizing: border-box;    
+}
+
+body {
+    background-image: url(../imagens/fundo1.png);
+    background-size:cover;
+    background-repeat: no-repeat;  
+    background-position: center;  
+}
+

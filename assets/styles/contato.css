@@ -1,0 +1,90 @@
+
+
+
+.contato__principal {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+   
+}
+
+.contato__principal h3 {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;   
+    color: var(--cor-titulo-principal);
+}
+
+.contato__principal p, .contato__principal span {
+    color: var(--cor-titulo-principal);
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 0.5rem;
+}
+
+.contato__principal__funcionamento h3 {
+    margin-top: 2rem;
+}
+
+.contato__principal__funcionamento p {
+    line-height: 1.2rem;
+}
+
+.fale__conosco {
+    text-align: center;
+}
+
+.fachada {
+    margin-top: 1rem;
+    min-width: 80px;
+    max-width: 800px;
+    width: 90%;
+    border: 2px solid #FFF;
+    color: var(--cor-titulo-principal);
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+   
+    .contato__principal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato__principal__endereco, .contato__principal__telefone, .contato__principal__funcionamento {
+        display:inline-block;
+        padding: 0 2rem;
+        margin-bottom: 1.2rem;
+    }     
+
+    .contato__principal h3 {
+        font-size: 2rem;
+    }
+
+    .contato__principal p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1900px) {
+    .contato__principal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato__principal__endereco, .contato__principal__telefone, .contato__principal__funcionamento {
+        display:inline-block;
+        padding: 0 2rem;
+        margin-bottom: 1.2rem;
+    }     
+
+    .contato__principal h3 {
+        font-size: 2rem;
+    }
+    
+    .contato__principal p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }    
+}
